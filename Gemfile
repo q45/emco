@@ -33,6 +33,8 @@ group :doc do
 end
 
 gem 'rails_12factor', group: :production
+gem 'foundation-rails'
+gem 'high_voltage'
 
 ruby '2.0.0'
 

@@ -17,10 +17,10 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: emco_development
+  database: emco
   pool: 5
-  username: emco
-  password:
+  username: quintinsmith
+  password: samita45
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
