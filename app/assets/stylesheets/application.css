@@ -14,3 +14,11 @@
  *= require_tree .
  */
 
+.name h1 a {
+	font-size: 24px;
+}
+
+#est {
+	font-size: 12px;
+	padding-left: 5px;
+}
