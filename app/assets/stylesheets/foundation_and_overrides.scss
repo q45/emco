@@ -7,4 +7,11 @@
 $include-html-top-bar-classes: $include-html-classes;
 
 
-$topbar-height: 100px;
+.top-bar {
+	background: #373a36;
+}
+
+ul li > a {
+	background: #373a36;
+}
+
