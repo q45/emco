@@ -10,9 +10,10 @@
  *
  *= require_self
  *= require foundation_and_overrides
-
+ *= require foundation
  *= require_tree .
  */
+@import "foundation_and_overrides";
 
 .name h1 a {
 	font-size: 24px;

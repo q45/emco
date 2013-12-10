@@ -1,5 +1,11 @@
 Emco::Application.routes.draw do
+  get "contact_form/new"
+  get "contact_form/create"
   get '/', to: redirect('pages/home')
+  get 'pages/contact', to: 'contacts#new'
+  resources :contacts
+  
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
